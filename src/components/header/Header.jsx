@@ -33,7 +33,7 @@ const Header = ({ logo , Hero , button}) => {
             <li>ABOUT</li>
             <li>Support</li>
           </ul>
-          <div className="w-[140px] relative flex justify-end h-[60px]">
+          <div className="w-[140px] relative flex justify-end h-[70px]">
             <SearchIcon />
             <ShoppingCartIcon />
             <button onClick={handleClick} className="cursor-pointer absolute left-0 bottom-0 after:content-['DARK-LIGHT'] after:text-white after:absolute after:text-nowrap after:scale-0 hover:after:scale-100 after:duration-200 w-10 h-10 rounded-full border-4 border-sky-200 bg-black pointer flex items-center justify-center duration-300 hover:rounded-[50px] hover:w-36 group/button overflow-hidden active:scale-90">
